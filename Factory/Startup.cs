@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using DoctorsOffice.Models;
+using Factory.Models;
 
-namespace DoctorsOffice
+namespace Factory
 {
   public class Startup
   {
