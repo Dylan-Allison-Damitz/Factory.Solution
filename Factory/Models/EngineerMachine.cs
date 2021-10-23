@@ -1,4 +1,4 @@
-namespace DoctorsOffice.Models
+namespace Factory.Models
 {
   public class EngineerMachine
     {       
