@@ -41,7 +41,7 @@ _A web-based C# application that allows Dr. Sillystringz to manage and keep trac
 
 ## Implementing Migrations
 
-* Once `appsettings.json` has been created and filled out, assure you are still within the `Factory` foler and enter the command `dotnet tool install --global dotnet-ef --version 3.0.0` to ensure Enitity Framework is installed on your system
+* Once `appsettings.json` has been created and filled out, assure you are still within the `Factory` folder and enter the command `dotnet tool install --global dotnet-ef --version 3.0.0` to ensure Enitity Framework is installed on your system
 * Enter `dotnet ef migrations add Initial` to automatically create the database
 * Type `dotnet ef database update` to assure any changes have been accounted for
 * `dotnet run` will compile the project and launch in your local browser
