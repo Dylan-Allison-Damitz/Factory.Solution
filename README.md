@@ -20,7 +20,7 @@ _A web-based C# application that allows Dr. Sillystringz to manage and keep trac
 * _Navigate into the directory from your desktop: cd Factory.Solution_
 * _Open in Vs code: code ._
 * _Navigate to the Factory directory using the terminal: cd Factory_
-* _To install dependencies, run: 'dotnet restore'_
+* _To install dependencies, run: `dotnet restore`_
 
 
 ## Updating appsettings.json
