@@ -16,11 +16,11 @@ _A web-based C# application that allows Dr. Sillystringz to manage and keep trac
 
 ## Setup/Installation Requirements :triangular_ruler:
 
-* _Clone github repo: https://github.com/Dylan-Allison-Damitz/Factory.Solution.git_
-* _Navigate into the directory from your desktop: `cd Factory.Solution`_
-* _Open in Vs code: `code .`_
-* _Navigate to the Factory directory using the terminal: `cd Factory`_
-* _To install dependencies, run: `dotnet restore`_
+* Clone github repo: https://github.com/Dylan-Allison-Damitz/Factory.Solution.git
+* Navigate into the directory from your desktop: `cd Factory.Solution`
+* Open in Vs code: `code .`
+* Navigate to the Factory directory using the terminal: `cd Factory`
+* To install dependencies, run: `dotnet restore`
 
 
 ## Updating appsettings.json
