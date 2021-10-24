@@ -20,18 +20,12 @@ _A web-based C# application that allows Dr. Sillystringz to manage and keep trac
 * _Navigate into the directory from your desktop: cd Factory.Solution_
 * _Open in Vs code: code ._
 * _Navigate to the Factory directory using the terminal: cd Factory_
-* _To install dependencies, run: dotnet restore_
+* _To install dependencies, run: 'dotnet restore'_
 
-## Importing the database
-
-* In MySQL Workbench navigator, select 'Administration' in the top left corner, and then select 'Data Import/Restore'
-* In the Import Options screen, select 'Import from Self-Contained file'
-* Select the dump file titled 'dylan_allison_damitz.sql'
-* Navigate to the Import Progress screen, and select the 'Start Import' button to begin import of the database file
 
 ## Updating appsettings.json
 
-* Once you've imported the database, create an appsettings.json file in the HairSalon folder
+* In order for the Entity Framework, create an appsettings.json file in the HairSalon folder
 * Copy and paste the following code into the file:
 
 ```
