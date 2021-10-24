@@ -37,7 +37,7 @@ _A web-based C# application that allows Dr. Sillystringz to manage and keep trac
 }
 ```
 * Make sure you remove the curly brackets after entering in your username and password
-* Once your database connection is complete, return to the terminal and run 'dotnet build' to compile the project
+* Once your database connection is complete, return to the terminal and run `dotnet build` to compile the project
 
 ## Implementing Migrations
 
