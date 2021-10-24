@@ -9,7 +9,7 @@
 
 @if (@Model.Count == 0)
 {
-  <h3> No Engineers have been added</h3>
+  <h3> You haven't hired any engineers!</h3>
 }
 
 <ul>
@@ -19,5 +19,5 @@
   }
 </ul>
 
-<p>@Html.ActionLink("Add new Engineer", "Create")</p>
+<p>@Html.ActionLink("Hire new Engineer", "Create")</p>
 <p>@Html.ActionLink("Home", "Index", "Home")</p>

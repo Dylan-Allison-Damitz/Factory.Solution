@@ -4,7 +4,7 @@
 
 @model Factory.Models.Engineer;
 
-<h4>Add a new Engineer</h4>
+<h4>Hire a new Engineer</h4>
 
 @using (Html.BeginForm())
 {
@@ -13,7 +13,7 @@
     @Html.LabelFor(model => model.Skillset)
     @Html.TextBoxFor(model => model.Skillset)
 
-    <input type="submit" value="Add new Engineer" />
+    <input type="submit" value="Hire new Engineer" />
 }
 
 <p>@Html.ActionLink("See list of Engineers", "Index")</p>

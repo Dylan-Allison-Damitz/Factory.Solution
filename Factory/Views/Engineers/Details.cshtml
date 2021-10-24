@@ -4,10 +4,10 @@
 
 @model Factory.Models.Engineer;
 
-<h2>Engineer Details</h2>
+<h2><strong>Engineer Details</strong></h2>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
-<h3>@Html.DisplayNameFor(model => model.Skillset): @Html.DisplayFor(model => model.Skillset)</h3>
+<h3><strong>@Html.DisplayNameFor(model => model.Name):</strong> @Html.DisplayFor(model => model.Name)</h3>
+<h3><strong>@Html.DisplayNameFor(model => model.Skillset):</strong> @Html.DisplayFor(model => model.Skillset)</h3>
 
 @if(@Model.JoinEntities.Count == 0)
 {
@@ -19,10 +19,10 @@ else
   <ul>
     @foreach (var join in Model.JoinEntities)
     {
-      <li>@join.Machine.Name</li>
+      <strong><li>@join.Machine.Name</li></strong>
     }
   </ul>
 }
 <p>@Html.ActionLink("Edit Engineer", "edit", new { id = Model.EngineerId })</p>
-<p>@Html.ActionLink("Delete Engineer", "delete", new { id = Model.EngineerId })</p>
+<p>@Html.ActionLink("Fire Engineer", "delete", new { id = Model.EngineerId })</p>
 <p>@Html.ActionLink("Back to list", "Index", "Engineers")</p>
